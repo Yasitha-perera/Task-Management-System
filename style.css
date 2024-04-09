@@ -1,0 +1,82 @@
+body {
+    background-color: #4ba8a8; /* Fallback color */
+    background-image: url('logos/Back.jpg'); /* URL of your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+
+
+#logout_link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+     /* Adjusted */
+}
+
+#left_sidebar {
+    margin-top: 0px;
+    width: 17vw;
+    height: 35vw;
+    /* Adjusted */
+}
+
+#left_sidebar table tr {
+    background-color:rgb(20, 123, 119);   
+        font-size: 1.5vw;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    width: 17vw;
+
+}
+
+#left_sidebar table tr:hover{
+    background-color: rgb(9, 87, 84);
+    color: black;
+    
+}       
+.link{
+    text-decoration: none; 
+    color: azure; 
+    
+}
+.link:hover{
+    background-color:rgb(9, 87, 84);
+    color: white; 
+}
+#right_sidebar{
+    padding: 35px;
+    height: 75vh;
+    width: 83vw;
+    display: inline-block;
+    color: white;
+}
+.label{
+    color:white;
+}
+.row{
+    width: fit-content;
+    height: fit-content;
+}
+
+.corner-item {
+    position: absolute; /* Position the item absolutely within the header */
+    top: 35px; /* Position the item to the top */
+    right: 10px; /* Position the item to the right */
+    padding: 5px; /* Add padding for spacing */
+
+}#logout_link {
+    display: inline-block;
+    padding: 6px ;
+    background-color: rgb(9, 87, 84); /* Red background color, adjust as needed */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size:medium;
+}
+
+#logout_link:hover {
+    background-color:rgb(9, 87, 84); /* Darker red on hover, adjust as needed */
+}
